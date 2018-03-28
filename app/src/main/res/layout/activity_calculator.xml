@@ -96,7 +96,7 @@
                 android:layout_marginLeft="5dp"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:minWidth="50dp"
                 android:gravity="center"
                 android:textColor="@android:color/black"/>
@@ -231,9 +231,10 @@
             android:drawableTop="@drawable/ic_calculate"
             android:gravity="center"
             android:text="@string/calculate"
-            android:textColor="@android:color/black"/>
-            <!--android:clickable="true"
-            android:onClick="onClick"-->
+            android:textColor="@android:color/black"
+            android:clickable="true"
+            android:onClick="onClick"/>
+
 
         <TextView
             android:id="@+id/buttonReset"
@@ -243,9 +244,10 @@
             android:drawableTop="@drawable/ic_reset"
             android:gravity="center"
             android:text="@string/reset"
-            android:textColor="@android:color/black"/>
-            <!--android:clickable="true"
-            android:onClick="onClick"-->
+            android:textColor="@android:color/black"
+            android:clickable="true"
+            android:onClick="onClick"/>
+
 
     </LinearLayout>
 </LinearLayout>
